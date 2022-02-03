@@ -1,0 +1,42 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5em 1em;
+  margin-bottom: 2em;
+  width: 23%;
+  border-radius: 1em;
+  border: 2px solid #e33d33;
+  -webkit-box-shadow: 5px 5px 12px rgb(0 0 0 / 50%);
+  box-shadow: 5px 5px 12px rgb(0 0 0 / 50%);
+  background-color: #333;
+}
+
+.list li h2 {
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.list .button {
+  background-color: #fff;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.list .button:hover {
+  color: #fff;
+  background-color: #e33d33;
+}
